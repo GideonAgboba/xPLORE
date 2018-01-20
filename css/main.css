@@ -1,0 +1,196 @@
+.home_body{
+   /*background-image: url(../imgs/FILE1110.JPG) !important;*/
+   background-color: white
+	background-color: #dedede;
+	background-image: url(../imgs/mainbg.jpg);
+   background-size: cover;
+}
+.home_navbar{
+  	width: 100%;
+  	background:  fixed;
+   /*background: linear-gradient( #290a59, #ff7800);*/
+   background-color: #290a59;
+   opacity: 0.9;
+}
+.home_container{
+}
+.home_first_section{
+	background-image: url(../imgs/mainbg.jpg);
+	height: 650px;
+	margin-left: 0px;
+	margin-right: 0px;
+   background-attachment: fixed;
+}
+.home_second_section{
+	background-color: white;
+}
+.home_third_section{
+	background-color: white;
+}
+.home_fourth_section{
+	background-color: transparent;
+	height: 100px;
+}
+/* Carousel base class */
+.carousel {
+   /*background: linear-gradient( rgb(o,o,o,o.5),rgb(o,o,o,o.5),rgb(o,o,o,o.5));*/
+  /*margin-bottom: 4rem;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	color: grey;
+  /*z-index: 10;*/
+  top: 0px;
+}
+.home_second_section_form{
+	float: right;
+	width: 48%;
+	margin-top: 1.5em;
+	background-color: #290a59;
+	margin-right: -5em;
+}
+.home_second_section_form h3{
+  color: rgb(226,107,13);
+}
+.row{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.home_second_section_form input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 100% !important;
+  color: rgb(226,107,13);
+}
+.home_second_section_form input:: placeholder{ 
+  color: rgb(226,107,13);
+}
+.home_second_section_form select{
+	margin-top: 5px;
+  color: rgb(226,107,13);
+	margin-bottom: 5px;
+	text-align: center;
+	width: 100% !important;
+}
+.home_second_section_form input[type="submit"]{
+	font-weight: bold;
+	color: darkgrey;
+	background-color: white;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+.home_second_section_form input[type="submit"]:hover{
+	font-weight: bold;
+	color: white;
+	background-color: darkgrey;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: darkgrey;
+}
+.home_second_section_get_jobs{
+	color: white;
+	float: left;
+	margin-top: 5em;
+	margin-left: -2em;
+}
+
+.home_get_jobs_btn{
+	background-color: white;
+	color: rgb(47,85,96);
+	font-weight: bold;
+	width: 100%;
+	margin-top: 1em;
+}
+.home_get_jobs_btn:hover{
+	background-color: rgb(47,85,96);
+	color: white;
+	border: solid 2px white;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 25rem;
+  background-color: #777;
+}
+.carousel-item  img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 25rem;
+}
+
+
+
+
+
+
+
+.home_third_section_sidebar{
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.home_third_section_sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.home_third_section_sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.home_third_section_sidebar .nav-item {
+  width: 100%;
+}
+
+.home_third_section_sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.home_third_section_sidebar .nav-link {
+  border-radius: 0;
+  color: rgb(226,107,13);
+}
+.home_third_section_sidebar .nav-link.active {
+  background-color: #290a59;
+  color: rgb(226,107,13);
+}
+.home_third_section_sidebar .nav-link:hover {
+  background-color: #290a59;
+  color: rgb(226,107,13);
+}
+.home_main_first_section{
+	padding-top: 2em;
+	border-radius: 10px 10px 10px;
+	background-image: url(../imgs/pinned.png);
+	background-size: cover !important;
+}
+.btn_go{
+	font-weight: bold;
+	background-color: #290a59;
+  color: rgb(226,107,13);
+  margin-bottom: 3em;
+ }
+ .home_third_section_iframe{
+ 	width: 100%;
+ 	height: 400px;
+  color: rgb(226,107,13);
+	background-color: #290a59;
+ 	margin-bottom: 5em;
+ 	padding-top: 1em;
+ 	padding-left: 1em;
+ 	padding-right: 1em;
+ }
+ .home_third_section_iframe iframe{
+ 	width: 100%;
+ 	height: 300px;
+ }
